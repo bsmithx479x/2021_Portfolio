@@ -2,3 +2,29 @@
     background-image: url(images/HeaderImage2.jpg);
     height: 1000px;
 }
+
+.body2 {
+    background-image: url(images/HeaderImage3.jpg);
+    height: 1000px;
+}
+
+.accordion-body img {
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    
+}
+
+.accordion-body img:hover {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+.btn-dark {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.btn-dark:hover{
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
