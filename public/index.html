@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" class="style">
+
+    <!--BOOTSTRAP CDN-->
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+
+
+
+    <title>Billy D. Smith</title>
+</head>
+
+<body>
+
+    <!--HEADER IMAGE/TITLE-->
+    <div class="jumbotron jumbotron-fluid body mb-0">
+        <div class="container">
+            <h1 class="display-2 pt-5">Billy D. Smith</h1>
+            <p class="lead">Father | Developer | Creator | Life Student</p>
+        </div>
+    </div>
+
+    <!--NAVBAR-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Billy D. Smith</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav nav-tabs">
+                <li class="nav-item active">
+                    <a class="nav-link mx-5" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-5" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-5" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--HEADER IMAGE/TITLE-->
+    <div class="jumbotron jumbotron-fluid body2 mb-0 text-end">
+        <div class="container">
+            <h1 class="display-2 pt-5">Projects</h1>
+            <p class="lead">Below are some projects I've created!</p>
+        </div>
+    </div>
+
+    <!--PROJECT CAROUSEL-->
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              SKYNITE SOFTWARE
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse skynite" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body position-relative">
+                <img src="images/SKYNITE.png" alt="">
+                <div class="d-grid mx-auto position-absolute top-50 start-50 translate-middle-x">
+                    <a href="https://bsmithx479x.github.io/SKYNITE-SOFTWARE/" target="blank_"><button class="btn btn-dark p-4" type="button">Visit Project Site!</button></a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              SHOENANIGANS
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body position-relative">
+                <img src="images/SKYNITE.png" alt="">
+                <div class="d-grid mx-auto position-absolute top-50 start-50 translate-middle-x">
+                    <a href="https://bsmithx479x.github.io/SKYNITE-SOFTWARE/" target="blank_"><button class="btn btn-dark p-4" type="button">Visit Project Site!</button></a>
+                </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                HEALTHCORE
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body position-relative">
+                <img src="images/SKYNITE.png" alt="">
+                <div class="d-grid mx-auto position-absolute top-50 start-50 translate-middle-x">
+                    <a href="https://bsmithx479x.github.io/SKYNITE-SOFTWARE/" target="blank_"><button class="btn btn-dark p-4" type="button">Visit Project Site!</button></a>
+                </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="business-form">
+        <h1 class="businessh1">Business Inquiries</h1>
+        <form method="post" action="/submit-form">
+          <label for="fname">Name:</label><br>
+          <input type="text" id="fname" name="fname" placeholder="Enter your name" required><br>
+          <label for="email">Email Address:</label><br>
+          <input type="text" id="email" name="email" placeholder="Enter your email address" required><br>
+          <label for="text">Additional Comments:</label><br>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"
+            required></textarea>
+          </br>
+          <div class="centerButton">
+          <input class="submit" type="submit"></input>
+          </div>
+        </form>
+      </div>
+
+
+
+
+    <script src="main.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+
+</html>
